@@ -39,6 +39,8 @@ def ComputePosterior(dataset, alpha, beta):
 
     return(post, C, a, b)
 
+#normal mean formula !!! why does he add sum(X) to the alpha_h (alpha_star) ? 
+#normal variance : ok
 
 def plotPosth(post):
     n = 30
@@ -57,16 +59,17 @@ def plotPost(post, C, a, b):
     n = 30
     ft = np.zeros(n+1)
     for i in range(0, n+1): 
-        ft[i] = C*post(i/n)
+        ft[i] = post(i/(n+1))/C
 
     m = np.max(ft)
 
     plt.figure(1)
-    plt.plot(ft)
+    plt.plot(np.linspace(0, 1, n+1), ft)
     plotCI(a, b, m)
     plt.show()
 
     return 0
+
 
 def plotCI(a, b, m):
     n = 20
@@ -94,4 +97,5 @@ beta = 2
 
 post, C, a, b = ComputePosterior(dataset, alpha, beta)
 
+#plotPosth(post)
 plotPost(post, C, a, b)
