@@ -2,7 +2,7 @@
 # ------ EXT. MODULES : 
 import numpy as np # check if necessary
 # ------ OWN FUNCTIONS : 
-from TransformData import *
+from TransformData import * # import data and feature creation
 from Prior import defPrior # function handle for f(a)
 from CondDist import defCondDist # function hangle for f(d|a)
 
@@ -19,12 +19,16 @@ from CondDist import defCondDist # function hangle for f(d|a)
 priorFlag = 1
 condFlag = 1
 
-# redeem prior function 
-fprior = defPrior(priorFlag)
-
 #redeem conditional distribution function 
 fcond = defCondDist(condlfag)
 
+# redeem prior function 
+fprior = defPrior(priorFlag)
+
 # Sample to approximate posterior
 
+# compute training error and credible interval (should be small)
+
 # Test the model 
+    # compute p(a|d) 
+    # test if p(a|d)>0.5 corresponds to 1 (can we change 0.5 and in which case should we change it?)
