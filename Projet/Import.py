@@ -28,7 +28,7 @@ with open('data.csv', 'r') as f:
 header = li[0]
 li = li[1:]
 
-header = ['Brand', 'Item ', 'Calories', 'TotalFat', 'TransFat ', 'SatFat', 'Sodium', 'Carbohydrates', 'Cholesterol', 'Fibre', 'Sugars', 'Protein', 'VitaminA', 'VitaminC', 'Calcium', 'Iron']
+header = ['Brand', 'Item ', 'Calories', 'TotalFat', 'TransFat', 'SatFat', 'Sodium', 'Carbohydrates', 'Cholesterol', 'Fibre', 'Sugars', 'Protein', 'VitaminA', 'VitaminC', 'Calcium', 'Iron']
 
 # convert data into pands dataframe
 df = pd.DataFrame(li, columns=header, dtype='float')
