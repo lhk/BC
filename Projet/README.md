@@ -17,14 +17,20 @@ CondDist.py
 |TestTrain.py		|separate testing and training datasets	|
 
 ## Data visualisation : 
-Visualize.py 				make plots of the data  
-AutoRun.py 				run Visalize.py for all features 
+|FILE			|DESCRIPTION 				|
+|:----------------------|:--------------------------------------|
+|Visualize.py		|make plots of the data  		|
+|AutoRun.py 		|run Visalize.py for all features 	|
 
 ## Methods : 
-SamplingMethods.py 			methods for sampling  
+|FILE 			|DESCRIPTION				|
+|:----------------------|:--------------------------------------|
+|SamplingMethods.py	|methods for sampling			|
 
 ## Main file (script): 
-Model.py				script for presentation at the exam  
+|FILE			|DESCRIPTION				|
+|:----------------------|:--------------------------------------|
+|Model.py		|script for presentation at the exam  	|
 
 
 
