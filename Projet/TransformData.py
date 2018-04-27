@@ -1,6 +1,7 @@
 from Import import *
 
 df['SugarProCal'] = df['Sugars']/(1 + df['Calories'])
-df['SodSug'] = df['Sodium'] + df['Sugars']
+del df['Sodium']
+del df['SatFat']
 
-print(df[0:3])
+print(df.columns.values)
