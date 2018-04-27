@@ -9,10 +9,12 @@ Prior.py
 CondDist.py   
 
 ## Import and treat data : 
-data.csv 				our data  
-Import.py 				importing the data (pandas)  
-TransformData.py			add/remove features  
-TestTrain.py 				separate testing and training datasets  
+|FILE			|DESCRIPTION				|
+|:----------------------|:--------------------------------------|
+|data.csv		|our data				|
+|Import.py		|importing the data (pandas)		|
+|TransformData.py	|add/remove features			|
+|TestTrain.py		|separate testing and training datasets	|
 
 ## Data visualisation : 
 Visualize.py 				make plots of the data  
