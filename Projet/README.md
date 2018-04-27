@@ -5,8 +5,8 @@ Project for Bayesian Computation course.
 
 # Content of the folder : 
 ## Undocumented : 
->Prior.py 
->CondDist.py 
+Prior.py  
+CondDist.py   
 
 ## Import and treat data : 
 data.csv 				our data
