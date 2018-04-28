@@ -25,7 +25,10 @@ CondDist.py
 ## Methods : 
 |FILE 			|DESCRIPTION				|
 |:----------------------|:--------------------------------------|
-|SamplingMethods.py	|methods for sampling			|
+|Methods1.py		|sampling (IS and AR)			|
+|Methods2.py		|sampling (MH) 				|
+|Methods3.py 		|optimization (GD, LSGD, Newton, SGD)	|
+|Methods4.py		|Laplace approximation			|
 
 ## Main file (script): 
 |FILE			|DESCRIPTION				|
