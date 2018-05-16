@@ -1,6 +1,6 @@
 # --- IMPORRTS
 # ------ EXT. MODULES : 
-import numpy as np # check if necessary
+import numpy as npy # check if necessary
 # ------ OWN FUNCTIONS : 
 from TransformData import * # import data and feature creation
 from Prior import defPrior # function handle for f(a)
@@ -16,7 +16,7 @@ from CondDist import defCondDist # function hangle for f(d|a)
 # f(a|d) ~ f(d|a)*f(a) 
 
 # parameters of our model (internal to the program)
-priorFlag = 1
+priorFlag = 77
 condFlag = 1
 
 #redeem conditional distribution function 
@@ -32,3 +32,5 @@ fprior = defPrior(priorFlag)
 # Test the model 
     # compute p(a|d) 
     # test if p(a|d)>0.5 corresponds to 1 (can we change 0.5 and in which case should we change it?)
+
+    # more new code
